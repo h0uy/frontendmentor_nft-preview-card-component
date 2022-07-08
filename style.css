@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600&display=swap');
+
+/*
+	The designs were created to the following widths:
+
+		- Mobile: 375px
+		- Desktop: 1440px
+*/
+
+:root{
+	/* Primary colors */
+	--color-softblue: hsl(215, 51%, 70%);
+	--color-cyan: hsl(178, 100%, 50%);
+
+	/* Neutral colors */
+	--color-verydarkblue: hsl(217, 54%, 11%);	/* Main BG */
+	--color-verydarkblue2: hsl(216, 50%, 16%);	/* Card BG */
+	--color-verydarkblue3: hsl(215, 32%, 27%);	/* Line */
+	--color-white: hsl(0, 0%, 100%);
+}
+
+body{
+	background-color: var(--color-verydarkblue);
+	font-family: 'Signika', sans-serif;
+}
+
+section{
+	background-color: var(--color-verydarkblue2);
+	max-width: 375px;
+	padding: 24px;
+	border-radius: 16px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+img.image{
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+img.avatar{
+	border: solid 1px var(--color-white);
+	border-radius: 50%;
+	width: 12%;
+}
+
+h1{
+	color: var(--color-white);
+	font-weight: 600;
+}
+
+a{
+	color: var(--color-white);
+	text-decoration: none;
+}
+
+a:hover{
+	color: var(--color-cyan);
+}
+
+p{
+	font-size: 18px;
+	font-weight: 300;
+	color: var(--color-softblue);
+}
+
+p.eth{
+	color: var(--color-cyan);
+	font-weight: 400;
+}
+
+div.status{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+hr{
+	border: solid 1px var(--color-verydarkblue3);
+}
+
+footer{
+	display: inline-flex;
+	align-items: center;
+	margin-top: 15px;
+}
+
+span.author{
+	margin-left: 15px;
+	color: var(--color-softblue);
+	font-weight: 300;
+}
